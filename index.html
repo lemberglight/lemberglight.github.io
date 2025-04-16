@@ -6,62 +6,123 @@
   <title>Lemberg Light Inc</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
       color: #333;
     }
     header {
       background: #002244;
       color: #fff;
-      padding: 40px 20px;
       text-align: center;
-    }
-    section {
       padding: 40px 20px;
-      max-width: 900px;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .section {
+      max-width: 1100px;
       margin: auto;
+      padding: 40px 20px;
+    }
+    .section h2 {
+      text-align: center;
+      color: #002244;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    .contact {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
     }
     .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .cta a {
       background: #0066cc;
       color: #fff;
-      padding: 20px;
-      text-align: center;
+      padding: 15px 30px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta a:hover {
+      background: #004999;
+    }
+    .gallery {
       margin-top: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
       border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     footer {
       background: #002244;
       color: #fff;
       text-align: center;
       padding: 20px;
-      margin-top: 40px;
-    }
-    a {
-      color: #fff;
-      text-decoration: none;
+      margin-top: 50px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Lemberg Light Inc</h1>
     <p>Licensed & Insured | Serving Chicago & Suburbs</p>
   </header>
 
-  <section>
+  <div class="section">
     <h2>All Types of Electrical Services</h2>
-    <p>We offer professional commercial and residential electrical services, including EV charger installation, panel upgrades, lighting, troubleshooting, and more.</p>
+    <p class="contact">
+      Call Now: <a href="tel:+12242505927">(224) 250-5927</a><br>
+      Email: <a href="mailto:lemberglightinc@gmail.com">lemberglightinc@gmail.com</a><br>
+      Instagram: <a href="https://www.instagram.com/lemberglight" target="_blank">@lemberglight</a>
+    </p>
+
     <div class="cta">
-      <h3>Call Now: <a href="tel:+12242505927">(224) 250-5927</a></h3>
-      <p>Email: <a href="mailto:lemberglightinc@gmail.com">lemberglightinc@gmail.com</a></p>
-      <p>Instagram: <a href="https://www.instagram.com/lemberglight" target="_blank">@lemberglight</a></p>
+      <a href="mailto:lemberglightinc@gmail.com?subject=Free Estimate Request">Get Free Estimate</a>
     </div>
-  </section>
+
+    <div class="gallery">
+      <img src="assets/panel-closed.jpg" alt="Panel closed">
+      <img src="assets/panel-open.jpg" alt="Panel open">
+      <img src="assets/terminal-box.jpg" alt="Terminal connections">
+      <img src="assets/breaker-setup.jpg" alt="Breaker setup">
+      <img src="assets/tankless.jpg" alt="Tankless heater wiring">
+      <img src="assets/control-box.jpg" alt="Control panel">
+      <img src="assets/ev-charger.jpg" alt="EV charger install">
+      <img src="assets/panel-labeled.jpg" alt="Labeled panel">
+      <img src="assets/bar-lighting.jpg" alt="Bar lighting">
+      <img src="assets/hallway-led.jpg" alt="LED hallway">
+      <img src="assets/ev-wall.jpg" alt="EV charger wall mount">
+      <img src="assets/ev-garage.jpg" alt="EV charger in garage">
+      <img src="assets/chandelier.jpg" alt="Modern chandelier">
+      <img src="assets/controller-box.jpg" alt="Controller system">
+      <img src="assets/multi-meter.jpg" alt="Multi meter setup">
+      <img src="assets/kitchen-lights.jpg" alt="Kitchen lighting">
+      <img src="assets/hall-pendants.jpg" alt="Pendant lights">
+      <img src="assets/open-floor.jpg" alt="Open living space">
+      <img src="assets/closet-led.jpg" alt="Closet lighting">
+      <img src="assets/dual-panels.jpg" alt="Dual electrical panels">
+    </div>
+  </div>
 
   <footer>
-    <p>&copy; 2025 Lemberg Light Inc. All rights reserved.</p>
+    &copy; 2025 Lemberg Light Inc. All rights reserved.
   </footer>
+
 </body>
 </html>
