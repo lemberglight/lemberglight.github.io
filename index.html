@@ -1,111 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lemberg Light Inc - Electrical Services</title>
+  <meta charset="UTF-8">
+  <title>Lemberg Light Inc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background: #f8f8f8;
-      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f4f4f4;
     }
     header {
-      background-color: #111;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    .button-group {
-      margin-top: 15px;
-    }
-    .button-group a {
-      display: inline-block;
-      margin: 5px 10px;
-      padding: 10px 20px;
-      background-color: #28a745;
+      background-color: #222;
       color: white;
+      padding: 20px 10px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    .info {
+      padding: 15px;
+      font-size: 18px;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
       text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+    .button-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
       border-radius: 5px;
-    }
-    .button-group a.email {
-      background-color: #007bff;
-    }
-    .button-group a.instagram {
-      background-color: #e1306c;
-    }
-    .button-group a.maps {
-      background-color: #6f42c1;
-    }
-    .section {
-      padding: 30px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .section h2 {
-      text-align: center;
-      margin-bottom: 20px;
+      text-decoration: none;
+      margin: 10px;
     }
     form {
-      display: flex;
-      flex-direction: column;
-      max-width: 500px;
-      margin: auto;
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     }
-    form input, form textarea {
-      margin: 10px 0;
+    input, textarea {
+      width: 100%;
       padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
+      margin: 10px 0;
       border-radius: 5px;
+      border: 1px solid #ccc;
     }
-    form button {
-      padding: 12px;
-      background-color: #007bff;
+    button {
+      background-color: #007BFF;
       color: white;
       border: none;
+      padding: 12px 20px;
       border-radius: 5px;
       cursor: pointer;
     }
     footer {
-      text-align: center;
-      padding: 20px;
-      background: #222;
-      color: #fff;
-      margin-top: 40px;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Lemberg Light Inc</h1>
-  <p>Licensed & Insured Electricians - Serving Illinois</p>
-  <div class="button-group">
-    <a href="tel:+12242505927">Call (224) 250-5927</a>
-    <a class="email" href="mailto:lemberglightinc@gmail.com">Email Us</a>
-    <a class="instagram" href="https://instagram.com/lemberg.light" target="_blank">Instagram</a>
-    <a class="maps" href="https://www.google.com/maps/place/222+Inverrary+Ln,+Deerfield,+IL+60015" target="_blank">View on Google Maps</a>
-  </div>
-</header>
+  <header>
+    <h1>Lemberg Light Inc</h1>
+    <p>Licensed & Insured Electricians - Serving Illinois</p>
+  </header>
 
-<section class="section">
-  <h2>Contact Us</h2>
-  <form action="https://formspree.io/f/your-id-here" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required/>
-    <input type="email" name="email" placeholder="Your Email" required/>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <div class="info">
+    <a class="button-link" href="tel:+12242505927">Call (224) 250-5927</a>
+    <a class="button-link" href="mailto:lemberglightinc@gmail.com">Email Us</a>
+    <a class="button-link" href="https://www.instagram.com/lemberg">Instagram</a>
+    <a class="button-link" href="https://maps.google.com/?q=222+Inverrary+Ln,+Deerfield,+IL+60015">Google Maps</a>
+  </div>
+
+  <form>
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
     <button type="submit">Send Message</button>
   </form>
-</section>
 
-<footer>
-  &copy; 2025 Lemberg Light Inc. All rights reserved.
-</footer>
+  <footer>
+    © 2025 Lemberg Light Inc. All rights reserved.
+  </footer>
 
 </body>
 </html>
